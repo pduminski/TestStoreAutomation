@@ -1,0 +1,22 @@
+{
+  "name": "teststoreautomation",
+  "version": "1.0.0",
+  "description": "Automating test store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pduminski/TestStoreAutomation.git"
+  },
+  "author": "Pawel Duminski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pduminski/TestStoreAutomation/issues"
+  },
+  "homepage": "https://github.com/pduminski/TestStoreAutomation#readme",
+  "devDependencies": {
+    "cypress": "^12.6.0"
+  }
+}
