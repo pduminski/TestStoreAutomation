@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/pduminski/TestStoreAutomation#readme",
   "devDependencies": {
-    "cypress": "^12.6.0"
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.10.0"
   }
 }
