@@ -3,7 +3,7 @@ import HomePage from "../page-objects/homePage";
 import MyAccountPage from "../page-objects/myAccountPage";
 import { Faker, faker } from "@faker-js/faker";
 
-describe("my first scenario", () => {
+describe("Scenario of logging into the application", () => {
   const homePage = new HomePage();
   const myAccountPage = new MyAccountPage();
 
