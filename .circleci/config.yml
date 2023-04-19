@@ -1,14 +1,10 @@
 version: 2.1
 orbs:
-  cypress: cypress-io/cypress@2.2.0
+  cypress: cypress-io/cypress@3
 workflows:
-  build:
+  use-my-orb:
     jobs:
-      - cypress/install
       - cypress/run:
-        requires:
-          - cypress/install
-        store_artifacts: true
-        parallel: true
-        parallelism: 3
-        group: 2 machines
+          cypress-command: npx cypress run --browser chrome
+          install-browsers: true
+          start-command: npm run start:dev
